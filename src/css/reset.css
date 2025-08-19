@@ -1,0 +1,58 @@
+/* Reset.css básico e moderno para Countify */
+
+/* Box-sizing global */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove estilos padrões */
+html,
+body,
+main,
+section,
+div,
+h1,
+p,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Remove estilos padrão dos botões */
+button {
+    all: unset;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Remove estilo dos ícones */
+i {
+    font-style: normal;
+    display: inline-block;
+}
+
+/* Remove decoração de texto */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: ui-sans-serif,
+        system-ui,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    ;
+}

@@ -1,0 +1,76 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    width: 80%;
+    border-radius: 0.75rem;
+    padding: 4rem 0;
+    background-color: rgba(255, 255, 255, 0.80);
+    color: #000;
+    box-shadow: 0px 0px 50px 25px rgba(0, 0, 0, 0.50);
+}
+
+.main__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    background-color: rgba(51, 51, 51, 0.75);
+    border: 1px solid #000;
+    border-radius: 0.75rem;
+    padding: 2.5rem 5rem;
+}
+
+.main__counter {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.main__buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    width: 75%;
+}
+
+.main__button {
+    background-color: #5bc0de;
+    color: #fff;
+    height: 20px;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    width: 33.3%;
+}
+
+.main__button:hover, .main__button:focus {
+    opacity: 0.9;
+}
+
+.main__button--decrease {
+    background-color: #bb2124;
+}
+
+.main__button--increase {
+    background-color: #22bb33;
+}
