@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     min-height: 100vh;
     background: url("../img/background.jpg");
@@ -74,7 +75,7 @@
 }
 
 .main__button--decrease:hover,
-.main__button:focus {
+.main__button--decrease:focus {
     background-color: hsl(359, 75%, 75%);
 }
 
